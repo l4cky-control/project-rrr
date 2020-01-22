@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm /home/1.tar
+rm /etc/wifiname
+touch /etc/wifiname
+echo "wlan0">/etc/wifiname
+chown wow /etc/wifiname
 
-sudo touch /usr/bin/helorrr
-sudo echo 'echo HELLO!!! rrrr....'>/usr/bin/helorrr
-sudo chmod +x /usr/bin/helorrr
